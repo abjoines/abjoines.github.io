@@ -63,7 +63,7 @@ export default function Sidebar() {
             </a>
           </p>
           <br></br>
-          <p>last updated 08/28/22 19:18:34</p>
+          <p>last updated 10/29/22 10:18:34</p>
           <p>designed and developed by Alyssa Joines &#9760;</p>
 
           <div className="gen-icons">
