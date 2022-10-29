@@ -369,6 +369,10 @@ a:hover {
     width: 50%;
   }
 
+  .contact, .bio {
+    font-size: 18px;
+  }
+
   .sidebar-container {
     flex: 100vw;
     width: 100%;
