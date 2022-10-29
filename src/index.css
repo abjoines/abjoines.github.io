@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Stars Revenge';
+  src: local('Stars Revenge'), url(./fonts/stars_revenge.ttf) format('truetype'),
+  url(./fonts/stars-revenge.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Beth Ellen 2';
+  src: local('Beth Ellen 2'), url(./fonts/Beth-Ellen-2.0.ttf) format('truetype'),
+  url(./fonts/Beth-Ellen-2.0.otf) format('opentype');
+}
+
 * {
   margin: 0;
   padding: 0;
