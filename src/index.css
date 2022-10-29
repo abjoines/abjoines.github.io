@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: cormorant-garamond, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: all .2s ease-in-out;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.project-details-container h1 {
+  padding: 0.5em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.small a:hover {
+  text-decoration: none;
+  color: #236D8C;
+  background-color: #CAD3C4;
+  box-shadow: 0 0 30px 30px #CAD3C4;
+  border-radius: 200px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.stars {
+  font-family: 'Stars Revenge';
+}
+
+.beth-ellen {
+  font-family: 'Beth Ellen 2';
+  line-height: 0.5;
+}
+
+/* MAIN CONTANT CONTAINER */
+.content-container {
+  width: 71%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* PROJECT CONTAINER */
+.split {
+  display: flex;
+  flex: row;
+  min-height: 75vh;
+}
+
+.project-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin: 0.5rem 1rem;
+}
+
+.project-text .project-details {
+  padding: 0;
+}
+
+.project-text a, .project-text p {
+  padding: 1em 0;
+}
+
+.project-images {
+  width: 50%;
+  margin: 0 1rem;
+}
+
+.project-images img {
+  width: 100%;
+  border: solid black 1px;
+  border-radius: 30px;
+  margin: 0.5em auto;
+}
+
+/* SIDEBAR CSS */
+.sidebar-container {
+  flex: 29vw;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  width: 29%;
+  height: 100vh;
+  padding: 40px 55px;
+  /* background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; */
+  background: rgb(108,156,176); 
+  background: linear-gradient(180deg, rgba(108,156,176,1) 24%, rgba(202,211,196,1) 100%);
+}
+
+.contact, .bio {
+  font-size: 20px;
+}
+
+.contact, .links {
+  padding: 1rem 0;
+}
+
+.bio p {
+  padding: 0.75rem 0;
+}
+
+.bio span {
+  font-size: 30px;
+}
+
+.links {
+  font-size: 14px;
+  text-align: center;
+  padding: 1rem;
+  margin: auto;
+}
+
+.links p {
+  padding: 5px 0;
+}
+
+.icon-img {
+  height: 40px;
+  padding-top: 10px;
+}
+
+/* PORTFOLIO GRID */
+.page-link {
+  filter: grayscale();
+}
+
+.page-link:hover {
+  filter: none;
+  text-decoration: none;
+}
+
+.bg-img-fixed-top {
+  z-index: -1;
+  position: absolute;
+  width: 350px;
+  top: 27%;
+  left: 33%;
+  filter: blur(5px);
+  opacity: 0.75;
+  -webkit-animation:spin 20s linear infinite;
+  -moz-animation:spin 20s linear infinite;
+  animation:spin 20s linear infinite;
+}
+
+.bg-img-fixed-middle {
+  z-index: -1;
+  position: absolute;
+  width: 350px;
+  top: 131%;
+  left: 70%;
+  filter: blur(5px);
+  opacity: 0.75;
+  -webkit-animation:spin 20s linear infinite;
+  -moz-animation:spin 20s linear infinite;
+  animation:spin 20s linear infinite;
+}
+
+.bg-img-fixed-bottom {
+  z-index: -1;
+  position: absolute;
+  width: 350px;
+  top: 215%;
+  left: 33%;
+  filter: blur(5px);
+  opacity: 0.75;
+  -webkit-animation:spin 20s linear infinite;
+  -moz-animation:spin 20s linear infinite;
+  animation:spin 20s linear infinite;
+}
+
+.box {
+  border: solid black 1px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.portfolio-grid-container{
+  gap: 14px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  width: 100%;
+} 
+
+.small h3 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.small {
+  width: 15%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.medium {
+  width: 30%;
+  height: 230px;
+}
+
+.large {
+  width: 61%;
+  height: 480px;
+}
+
+.top {
+  margin-top: 0px;
+}
+
+.bottom {
+  margin-top: 114px;
+}
+
+.project-details-container {
+  height: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-content: center;
+  padding: 0.5rem;
+  font-size: 14px;
+}
+
+.project-details p {
+  border: solid black 1px;
+  padding: 0.25em 0.75em;
+  margin: 0 0.25em;
+  border-radius: 30px;
+  background-color: white;
+}
+
+/* .background-blur p {
+  background-color: #CAD3C4;
+  box-shadow: 0 0 5px 5px #CAD3C4;
+} */
+
+.title {
+  display: inline-block;
+}
+
+/* GALLERY STYLE */
+
+.full-width {
+  margin: 0 2em;
+  width: 100%;
+  padding: 2em 3em;
+}
+
+.full-width h1 {
+  padding-bottom: 0.5em;
+}
+
+.grid {
+  padding: 3em 0;
+  display: flex;
+  flex: row; 
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.grid-item-generative{
+  width: 32%;
+  height: 300px;
+}
+
+.grid-item-threed{
+  width: 32%;
+  height: 215px;
+}
+
+
+/* MARQUEE STYLING */
+
+.wrapper {
+  width: 100%;  
+  overflow: hidden;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee p {
+  font-size: 30px;
+  display: inline-block;
+  padding: 2rem 2rem;
+}
+
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1100px) {
+  .main-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebar {
+    position: static;
+    width: 100%;
+  }
+
+  .bio {
+    width: 50%;
+  }
+
+  .sidebar-container {
+    flex: 100vw;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .content-container {
+    position: static;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .bottom {
+    margin: 0;
+  }
+
+  .bg-img-fixed-bottom, .bg-img-fixed-top {
+    display: none;
+  }
+
+  .full-width {
+    width: 80%;
+    margin: 0;
+  }
+
+  .portfolio-grid-container {
+    width: auto;
+    margin: 0 3em;
+    
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .bio {
+    width: 100%;
+  }
+
+  .grid {
+    flex-direction: column;
+  }
+
+  .split {
+    flex-direction: column;
+  }
+
+  .project-images, .project-text {
+    width: 100%;
+    margin: 0 0 1em 0;
+  }
+}
