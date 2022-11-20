@@ -24,7 +24,7 @@ export default function GenArchive() {
 
   return (
     <div className="content-container">
-      <Marquee title="GENERATIVE ART ARCHIVE" />
+      <Marquee title="GENERATIVE ART" />
 
       <div className="full-width box">
         <h1>Generative Art Archive</h1>
@@ -42,7 +42,6 @@ export default function GenArchive() {
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
                   backgroundPosition: "center center",
-                  backgroundRepeat: "no-repeat",
                   overflow: "hidden",
                   borderRadius: "29px",
                 }}

@@ -22,8 +22,6 @@ export default function ThreeD() {
       .catch(console.error);
   }, []);
 
-  console.log(threeData);
-
   return (
     <div className="content-container">
       <Marquee title="3D ARCHIVE" />
@@ -44,7 +42,6 @@ export default function ThreeD() {
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
                   backgroundPosition: "center center",
-                  backgroundRepeat: "no-repeat",
                   overflow: "hidden",
                   borderRadius: "29px",
                 }}

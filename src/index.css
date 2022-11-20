@@ -304,11 +304,12 @@ a:hover {
 }
 
 .grid {
-  padding: 3em 0;
+  padding: 2em 0;
   display: flex;
   flex: row; 
   flex-wrap: wrap;
   gap: 14px;
+
 }
 
 .grid-item-generative{
@@ -363,6 +364,7 @@ a:hover {
   .sidebar {
     position: static;
     width: 100%;
+    height: 100%;
   }
 
   .bio {
@@ -376,13 +378,13 @@ a:hover {
   .sidebar-container {
     flex: 100vw;
     width: 100%;
-    height: 110vh;
+    height: 120vh;
   }
 
   .content-container {
     position: static;
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -401,14 +403,14 @@ a:hover {
   }
 
   .full-width {
-    width: 85%;
-    margin: 0;
+    width: auto;
+    margin: 0 1em;
     padding: 1rem 1rem;
   }
 
   .portfolio-grid-container {
     width: auto;
-    margin: 0 3em;
+    margin: 0 1em;
     
   }
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function ProjectBox(props) {
@@ -16,12 +16,11 @@ export default function ProjectBox(props) {
             width: "100%",
             backgroundSize: "cover",
             backgroundPosition: "center center",
-            backgroundRepeat: "no-repeat",
             overflow: "hidden",
             borderRadius: "29px",
           }}
         >
-          <h1 className="title"></h1>
+          {/* <h1 className="title"></h1> */}
           <div className="project-details background-blur">
             <p>{props.date && props.date}</p>
             {/* <p>{props.type && props.type}</p> */}

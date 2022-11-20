@@ -1,6 +1,5 @@
 import React from "react";
 import Icons from "./media/icons.png";
-// import background from "./media/background.png"
 
 export default function Sidebar() {
   return (
@@ -63,7 +62,7 @@ export default function Sidebar() {
             </a>
           </p>
           <br></br>
-          <p>last updated 10/29/22 10:18:34</p>
+          <p>last updated 11/19/22 10:22:34</p>
           <p>designed and developed by Alyssa Joines &#9760;</p>
 
           <div className="gen-icons">
