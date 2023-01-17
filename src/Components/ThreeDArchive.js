@@ -28,7 +28,7 @@ export default function ThreeD() {
 
       <div className="full-width box">
         <h1>3D Graphics Archive</h1>
-        <p>Miscelaneous 3D works.</p>
+        <p>Miscelaneous 3D works. All works created in Cinema 4D.</p>
 
         <div className="grid">
           {threeData &&

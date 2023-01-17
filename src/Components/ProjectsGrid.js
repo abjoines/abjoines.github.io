@@ -47,7 +47,7 @@ export default function ProjectGrid() {
           <Link to="/generative">
             <h3>
               <span className="beth-ellen">Generative</span> Art <br></br>{" "}
-              <span className="stars">Archive</span>
+              <span className="stars">Gallery</span>
             </h3>
           </Link>
         </div>

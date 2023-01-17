@@ -27,8 +27,11 @@ export default function GenArchive() {
       <Marquee title="GENERATIVE ART" />
 
       <div className="full-width box">
-        <h1>Generative Art Archive</h1>
-        <p>Miscelaneous recent generative projects and sketches.</p>
+        <h1>Generative Art Gallery</h1>
+        <p>
+          Miscelaneous recent generative projects and sketches. Mostly developed
+          using p5.js, GLSL, or Processing.
+        </p>
 
         <div className="grid">
           {genData &&
