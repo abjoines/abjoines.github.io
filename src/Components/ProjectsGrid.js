@@ -36,7 +36,7 @@ export default function ProjectGrid() {
 
   return (
     <div className="content-container">
-      <Marquee title="PORTFOLIO" />
+      <Marquee title="SELECTED WORKS" />
 
       <img alt="bg" className="bg-img-fixed-top" src={bg2}></img>
       <img alt="bg" className="bg-img-fixed-middle" src={bg1}></img>
