@@ -4,7 +4,7 @@ import Icons from "./media/icons.png";
 export default function Sidebar() {
   return (
     <div className="sidebar-container max-h-full">
-      <div className="border-2 border-black sidebar md:px-[55px] md:py-[40px] px-8 py-20 md:justify-between justify-start gap-8">
+      <div className="sidebar md:px-[40px] md:py-[30px] px-8 py-20 md:justify-between justify-start gap-8 md:gap-2">
         <div className="bio">
           <p>
             <span className="beth-ellen">Alyssa</span>
