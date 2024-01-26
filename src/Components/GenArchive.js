@@ -57,7 +57,7 @@ export default function GenArchive() {
         </Link>
       </div>
 
-      <Marquee title="GENERATIVE ART ARCHIVE" />
+      <Marquee title="GENERATIVE ART" />
     </div>
   );
 }

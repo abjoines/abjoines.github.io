@@ -65,6 +65,7 @@ export default function ProjectGrid() {
           projectData.map((projectData) => (
             <ProjectBox
               key={projectData._id}
+              index={projectData.order}
               name={projectData.name}
               date={projectData.textDate}
               desc={projectData.description}

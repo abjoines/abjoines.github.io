@@ -20,11 +20,10 @@ export default function ProjectBox(props) {
             borderRadius: "29px",
           }}
         >
-          {/* <h1 className="title"></h1> */}
           <div className="project-details background-blur">
-            <p>{props.date && props.date}</p>
-            {/* <p>{props.type && props.type}</p> */}
+            <p>{props.name}</p>
             <p>{props.medium && props.medium}</p>
+            <p>{props.date && props.date}</p>
           </div>
         </div>
       </Link>

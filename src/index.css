@@ -64,7 +64,7 @@ a:hover {
   line-height: 0.5;
 }
 
-/* MAIN CONTANT CONTAINER */
+/* MAIN CONTENT CONTAINER */
 .content-container {
   width: 71%;
   display: flex;
@@ -117,7 +117,10 @@ a:hover {
   top: 0;
   width: 29%;
   height: 100vh;
-  padding: 40px 55px;
+  padding: 40px 55px 0px 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   /* background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: center;
@@ -186,7 +189,7 @@ a:hover {
   z-index: -1;
   position: absolute;
   width: 350px;
-  top: 131%;
+  top: 80%;
   left: 70%;
   filter: blur(5px);
   opacity: 0.75;
@@ -199,7 +202,7 @@ a:hover {
   z-index: -1;
   position: absolute;
   width: 350px;
-  top: 215%;
+  top: 130%;
   left: 33%;
   filter: blur(5px);
   opacity: 0.75;
@@ -244,8 +247,13 @@ a:hover {
 }
 
 .large {
-  width: 61%;
+  width: 62%;
   height: 480px;
+}
+
+.list-item {
+  width: 95%;
+  height: fit-content;
 }
 
 .top {
@@ -268,16 +276,18 @@ a:hover {
 .project-details {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: left;
   align-content: center;
   padding: 0.5rem;
   font-size: 14px;
+  gap: 0.5rem;
 }
 
 .project-details p {
   border: solid black 1px;
   padding: 0.25em 0.75em;
-  margin: 0 0.25em;
+  /* margin: 0 0.25em; */
   border-radius: 30px;
   background-color: white;
 }
@@ -334,7 +344,7 @@ a:hover {
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
-  animation: marquee 15s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 
 .marquee p {
@@ -388,6 +398,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-height: fit-content;
   }
 
   .box {
@@ -409,7 +420,7 @@ a:hover {
   }
 
   .portfolio-grid-container {
-    width: auto;
+    /* width: auto; */
     margin: 0 1em;
     
   }

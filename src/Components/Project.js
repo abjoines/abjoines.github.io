@@ -50,7 +50,7 @@ export default function Project() {
 
   return (
     <div className="content-container">
-      <Marquee title="SELECTED WORKS" />
+      <Marquee title="SELECTED WORK" />
 
       <div className="full-width box split">
         <div className="project-text">
