@@ -3,33 +3,31 @@ import Icons from "./media/icons.png";
 
 export default function Sidebar() {
   return (
-    <div className="sidebar-container">
-      <div className="sidebar">
-        <div>
-          <div className="bio">
-            <p>
-              <span className="beth-ellen">Alyssa</span>
-              <br></br>
-              <span className="stars">Joines</span>
-              is a frontend developer, designer, and generative artist.{" "}
-            </p>
-            <p>
-              BFA in Design & Technology<br></br>
-              Parsons School of Design, The New School<br></br>
-              New York, NY
-            </p>
-            <p>
-              BA in Interdisicplinary Science<br></br>
-              Eugene Lang College, The New School<br></br>
-              New York, NY
-            </p>
-          </div>
+    <div className="sidebar-container max-h-full">
+      <div className="border-2 border-black sidebar md:px-[55px] md:py-[40px] px-8 py-20 md:justify-between justify-start gap-8">
+        <div className="bio">
+          <p>
+            <span className="beth-ellen">Alyssa</span>
+            <br></br>
+            <span className="stars">Joines</span>
+            is a frontend developer, designer, and generative artist.{" "}
+          </p>
+          <p>
+            BFA in Design & Technology<br></br>
+            Parsons School of Design, The New School<br></br>
+            New York, NY
+          </p>
+          <p>
+            BA in Interdisicplinary Science<br></br>
+            Eugene Lang College, The New School<br></br>
+            New York, NY
+          </p>
+        </div>
 
-          <div className="contact">
-            <p>Currently Contracted</p>
-            <p>for inquiries please email:</p>
-            <p>alyssajoines&#40;at&#41;gmail&#40;dot&#41;com</p>
-          </div>
+        <div className="contact md:text-left text-center">
+          <p>Currently Contracted</p>
+          <p>for inquiries please email:</p>
+          <p>alyssajoines&#40;at&#41;gmail&#40;dot&#41;com</p>
         </div>
 
         <div className="links">
@@ -67,7 +65,7 @@ export default function Sidebar() {
           <p>designed and developed by Alyssa Joines &#9760;</p>
 
           <div className="gen-icons">
-            <img alt="icon" className="icon-img" src={Icons}></img>
+            <img alt="icon" className="icon-img m-auto" src={Icons}></img>
           </div>
         </div>
       </div>

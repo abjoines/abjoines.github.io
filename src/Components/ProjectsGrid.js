@@ -42,7 +42,7 @@ export default function ProjectGrid() {
       <img alt="bg" className="bg-img-fixed-middle" src={bg1}></img>
       <img alt="bg" className="bg-img-fixed-bottom" src={bg3}></img>
 
-      <div className="portfolio-grid-container">
+      <div className="portfolio-grid-container px-4 md:px-8">
         <div className="small box top">
           <Link to="/generative">
             <h3>

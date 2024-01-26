@@ -8,7 +8,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="main-container">
+    <div className="main-container overflow-hidden">
       <Sidebar />
       <BrowserRouter>
         <Routes>
