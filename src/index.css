@@ -310,9 +310,9 @@ a:hover {
 /* GALLERY STYLE */
 
 .full-width {
-  margin: 0 2em;
   width: 100%;
-  padding: 2em 3em;
+  margin: 0rem 3rem;
+  padding: 1.5rem 1rem;
 }
 
 .full-width h1 {

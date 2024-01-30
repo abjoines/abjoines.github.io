@@ -68,14 +68,19 @@ export default function Project() {
           </div>
 
           {pageData.link && (
-            <a target="_blank" rel="noopener noreferrer" href={pageData.link}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+              href={pageData.link}
+            >
               {pageData.linkName}
             </a>
           )}
           {pageData.attribution && <p>{pageData.attribution}</p>}
 
           <Link to="/">
-            <p>&larr; back</p>
+            <p>&larr; home</p>
           </Link>
         </div>
 
