@@ -38,11 +38,11 @@ export default function ProjectGrid() {
     <div className="content-container">
       <Marquee title="SELECTED WORKS" />
 
-      <img alt="bg" className="bg-img-fixed-top" src={bg2}></img>
-      <img alt="bg" className="bg-img-fixed-middle" src={bg1}></img>
-      <img alt="bg" className="bg-img-fixed-bottom" src={bg3}></img>
+      <div className="portfolio-grid-container px-4">
+        <img alt="bg" className="bg-img-fixed-top" src={bg2}></img>
+        <img alt="bg" className="bg-img-fixed-middle" src={bg1}></img>
+        <img alt="bg" className="bg-img-fixed-bottom" src={bg3}></img>
 
-      <div className="portfolio-grid-container px-4 md:px-0">
         <div className="small box top">
           <Link to="/generative">
             <h3>

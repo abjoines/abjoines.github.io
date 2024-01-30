@@ -196,7 +196,7 @@ a:hover {
   position: absolute;
   width: 350px;
   top: 110%;
-  left: 80%;
+  left: 72%;
   filter: blur(5px);
   opacity: 0.75;
   -webkit-animation:spin 20s linear infinite;
@@ -208,7 +208,7 @@ a:hover {
   z-index: -1;
   position: absolute;
   width: 350px;
-  top: 240%;
+  top: 250%;
   left: 33%;
   filter: blur(5px);
   opacity: 0.75;
