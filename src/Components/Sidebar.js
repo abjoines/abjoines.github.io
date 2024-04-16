@@ -3,8 +3,8 @@ import Icons from "./media/icons.png";
 
 export default function Sidebar() {
   return (
-    <div className="sidebar-container max-h-full">
-      <div className="sidebar md:px-[40px] md:py-[30px] px-8 py-20 md:justify-between justify-start gap-8 md:gap-2">
+    <div className="sidebar-container min-h-[100vh] max-h-[100vh]">
+      <div className="sidebar flex md:px-[40px] md:py-[30px] px-8 py-[10vw] justify-between gap-2">
         <div className="bio">
           <p>
             <span className="beth-ellen">Alyssa</span>
@@ -25,7 +25,7 @@ export default function Sidebar() {
         </div>
 
         <div className="contact md:text-left text-center">
-          <p>Currently Contracted</p>
+          <p>Currently Freelancing</p>
           <p>for inquiries please email:</p>
           <p>alyssajoines&#40;at&#41;gmail&#40;dot&#41;com</p>
         </div>

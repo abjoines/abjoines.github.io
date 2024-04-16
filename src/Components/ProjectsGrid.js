@@ -32,13 +32,13 @@ export default function ProjectGrid() {
       .catch(console.error);
   }, []);
 
-  console.log(projectData);
+  // console.log(projectData);
 
   return (
     <div className="content-container">
       <Marquee title="SELECTED WORKS" />
 
-      <div className="portfolio-grid-container px-4">
+      <div className="portfolio-grid-container px-4 relative">
         <img alt="bg" className="bg-img-fixed-top" src={bg2}></img>
         <img alt="bg" className="bg-img-fixed-middle" src={bg1}></img>
         <img alt="bg" className="bg-img-fixed-bottom" src={bg3}></img>
@@ -64,7 +64,7 @@ export default function ProjectGrid() {
         {projectData &&
           projectData.map((projectData) => (
             <ProjectBox
-              key={projectData._id}
+              key={projectData.order}
               index={projectData.order}
               name={projectData.name}
               date={projectData.textDate}

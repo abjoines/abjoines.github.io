@@ -155,7 +155,7 @@ a:hover {
 }
 
 .links {
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -182,8 +182,8 @@ a:hover {
   z-index: -1;
   position: absolute;
   width: 350px;
-  top: 27%;
-  left: 27%;
+  top: 5%;
+  left: 2%;
   filter: blur(5px);
   opacity: 0.75;
   -webkit-animation:spin 20s linear infinite;
@@ -195,8 +195,8 @@ a:hover {
   z-index: -1;
   position: absolute;
   width: 350px;
-  top: 110%;
-  left: 72%;
+  top: 52%;
+  left: 60%;
   filter: blur(5px);
   opacity: 0.75;
   -webkit-animation:spin 20s linear infinite;
@@ -208,8 +208,8 @@ a:hover {
   z-index: -1;
   position: absolute;
   width: 350px;
-  top: 250%;
-  left: 33%;
+  bottom: 0;
+  left: 3%;
   filter: blur(5px);
   opacity: 0.75;
   -webkit-animation:spin 20s linear infinite;
@@ -388,13 +388,13 @@ a:hover {
   }
 
   .contact, .bio {
-    font-size: 18px;
+    font-size: 2.5vh;
   }
 
   .sidebar-container {
-    flex: 100vw;
+    /* flex: 100vw; */
     width: 100%;
-    height: 120vh;
+    height: 100vh;
   }
 
   .content-container {
@@ -429,6 +429,14 @@ a:hover {
 @media only screen and (max-width: 900px) {
   .bio {
     width: 100%;
+  }
+
+  .bio p {
+    padding: 0.25rem 0;
+  }
+
+  .links p {
+    padding: 0 0;
   }
 
   .grid {

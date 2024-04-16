@@ -44,9 +44,9 @@ export default function Project() {
       .catch(console.error);
   }, [slug]);
 
-  console.log(pageData);
+  // console.log(pageData);
 
-  if (!pageData) return <div>Project not found</div>;
+  if (!pageData) return <div className="text-center">Project not found</div>;
 
   return (
     <div className="content-container">
