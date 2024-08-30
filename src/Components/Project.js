@@ -63,25 +63,25 @@ export default function Project() {
               <p>{pageData.medium && pageData.medium}</p>
             </div>
             <br></br>
-            <p>{pageData.description && pageData.description}</p>
-            <p>{pageData.description2 && pageData.description2}</p>
+            {pageData.link && (
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:no-underline"
+                href={pageData.link}
+              >
+                {pageData.linkName}
+              </a>
+            )}
+            {pageData.description && <p>{pageData.description}</p>}
+            {pageData.description2 && <p>{pageData.description2}</p>}
+
+            <Link to="/" className="underline hover:no-underline !p-0">
+              <p className="!p-0">&larr; home</p>
+            </Link>
           </div>
 
-          {pageData.link && (
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline"
-              href={pageData.link}
-            >
-              {pageData.linkName}
-            </a>
-          )}
           {pageData.attribution && <p>{pageData.attribution}</p>}
-
-          <Link to="/">
-            <p>&larr; home</p>
-          </Link>
         </div>
 
         <div className="project-images">

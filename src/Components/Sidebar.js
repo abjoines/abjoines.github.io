@@ -24,7 +24,7 @@ export default function Sidebar() {
           </p>
         </div>
 
-        <div className="contact md:text-left text-center">
+        <div className="contact text-left">
           <p>Currently Freelancing</p>
           <p>for inquiries please email:</p>
           <p>alyssajoines&#40;at&#41;gmail&#40;dot&#41;com</p>
@@ -61,7 +61,7 @@ export default function Sidebar() {
             </a>
           </p>
           <br></br>
-          <p>last updated 1/25/23 15:46:03</p>
+          <p>last updated 8/30/24</p>
           <p>designed and developed by Alyssa Joines &#9760;</p>
 
           <div className="gen-icons">
