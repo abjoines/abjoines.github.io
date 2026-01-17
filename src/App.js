@@ -10,7 +10,6 @@ function App() {
   return (
     <div className="overflow-hidden flex items-center justify-center h-full ">
       <div className="m-auto h-full pt-30">under construction</div>
-
       {/* <Sidebar />
       <BrowserRouter>
         <Routes>
