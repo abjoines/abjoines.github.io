@@ -8,8 +8,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="main-container overflow-hidden">
-      <Sidebar />
+    <div className="overflow-hidden flex items-center justify-center h-full ">
+      <div className="m-auto h-full pt-24">under construction</div>
+
+      {/* <Sidebar />
       <BrowserRouter>
         <Routes>
           <Route element={<Project />} path="/:slug" />
@@ -17,7 +19,7 @@ function App() {
           <Route element={<GenArchive />} path="/generative" />
           <Route element={<ThreeDArchive />} path="/threed" />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </div>
   );
 }
